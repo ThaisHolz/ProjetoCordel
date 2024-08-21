@@ -1,23 +1,38 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive;
+} 
+
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body{
-    min-width: 100vh;
+    min-width: 100%;
     background-color: #EBEBD3;
+    font-family: var(--fonte1);
 }
 
 header{
     background-color: #3C3C3B;
     color: #EBEBD3;
     text-align: center;
+    font-family: var(--fonte2);
 }
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header > p{
@@ -39,6 +54,8 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3vw;
 }
 
 section.normal{
@@ -47,12 +64,13 @@ section.normal{
 }
 
 section.imagem{
-    background-color: #5d5d5ca1;
+    background-color: rgba(93, 93, 92, 0.631);
 }
 
 section.imagem > p{
     background-color: #3C3C3B;
-    width: 300px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer{
@@ -61,3 +79,6 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+/* Paleta de cores
+https://coolors.co/ee4266-009f93-f18805-ebebd3-3c3c3b
