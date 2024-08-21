@@ -1,38 +1,7 @@
 body{
-    height: 100vh;
-    background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
-    background-size: cover ;
-    /*SHORTHAND BC
-    color > image > position > repeat > (size) > attachment 
-    -Size precisa ser separado mas fica nessa posição*/
+
 }
 
 main{
-    background-color: white;
-    max-width: 500px;
-    padding: 10px;
-    margin: auto;
-    border: 1px solid black;
-    border-radius: 15px;                                             
-}
-
-#container{
-    position: relative;
-    height: 500px;
-    padding: 10px;
-    background-color: rgb(59, 95, 95);
-    background-image: url(imagens/target001.png);
-    background-size: 100% 100%;
-}
-
-#conteudo{
-    position: absolute;
-    height: 250px;
-    width: 250px;
-    background-color: aquamarine;
-    background-image: url(imagens/target001.png);
-    background-size: 100% 100%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+                                            
 }
