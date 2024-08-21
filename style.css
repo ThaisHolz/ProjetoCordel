@@ -1,17 +1,17 @@
 body{
     height: 100vh;
-    background-color: black;
-    background-image: url(imagens/wallpaper002.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
+    background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
     background-size: cover ;
+    /*SHORTHAND BC
+    color > image > position > repeat > (size) > attachment 
+    -Size precisa ser separado mas fica nessa posição*/
 }
 
 main{
     background-color: white;
-    width: 400px;
+    max-width: 600px;
     padding: 10px;
     margin: auto;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 15px;                                             
 }
